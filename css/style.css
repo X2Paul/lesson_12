@@ -1,0 +1,12 @@
+.rectangle{
+    animation-name: change_color;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes change_color{
+    from{fill: yellow}
+    to{fill: blue}
+    from{stroke: red}
+    to{stroke: green}
+}
